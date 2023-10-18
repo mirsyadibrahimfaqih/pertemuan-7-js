@@ -1,4 +1,3 @@
-
 const user1 = {
     nama: "Akari Nara",
     asal: "Tokyo",
