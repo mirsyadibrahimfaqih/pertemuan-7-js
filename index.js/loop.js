@@ -41,7 +41,6 @@ const user1 = {
 
   const userArray = [user1, user2, user3, user4, user5];
   
-  console.log("Panggil setiap objek dengan menggunakan for in:");
   for (let i = 0; i < userArray.length; i++) {
     console.log(`user ${i + 1}:`);
     for (let key in userArray[i]) {
@@ -50,7 +49,6 @@ const user1 = {
     console.log("\n");
   }
   
-  console.log("Panggil array dengan menggunakan for of:");
   for (let user of userArray) {
     console.log(user);
   }
